@@ -23,7 +23,7 @@ app.use('/api/notes', noteRouter)
 
 
 app.get('/', (req, res) => {
-    res.send('Hello, World!')
+    res.send('I can connect to the noteful server!!!')
 })
 
 app.get('/xss', (req, res) => {
